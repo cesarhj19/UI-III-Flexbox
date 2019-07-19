@@ -185,8 +185,13 @@ nav img {
 header {
   width: 100%;
 }
-header .services-header-img {
+header .image-container {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+header .image-container .product-header-img {
+  width: 430px;
 }
 header h1 {
   font-size: 30px;
@@ -216,8 +221,13 @@ article section a {
   background: white;
   color: black;
 }
+.product .img img {
+  width: 400px;
+  margin: 20px 0 20px 0;
+  height: 241px;
+}
 
-.services section {
+.product .perks {
   background: #eeeeee;
   border: 1px solid black;
   padding: 23px;
